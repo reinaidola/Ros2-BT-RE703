@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4">
+  <BehaviorTree ID="Untitled">
+    <Sequence>
+      <go_to_pose x_pose="3.0"
+                  y_pose="0.0"
+                  yaw_angle="0.0"/>
+                  
+      <go_to_pose x_pose="3.0"
+                  y_pose="3.0"
+                  yaw_angle="0.0"/>
+
+      <go_to_pose x_pose="0.0"
+                  y_pose="3.0"
+                  yaw_angle="0.0"/>
+
+      <go_to_pose x_pose="3.0"
+                  y_pose="5.0"
+                  yaw_angle="0.0"/>
+
+      <go_to_pose x_pose="0.0"
+                  y_pose="0.0"
+                  yaw_angle="0.0"/>
+
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="go_to_pose"
+            editable="true">
+      <input_port name="x_pose"/>
+      <input_port name="y_pose"/>
+      <input_port name="yaw_angle"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>
